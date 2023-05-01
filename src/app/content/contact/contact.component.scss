@@ -1,36 +1,70 @@
-.space{
+.space {
     height: 100px;
 }
-.input-name{
+
+.input-name {
     flex: 0 0 50%;
     max-width: 50%;
 }
-.space-2{
+
+.space-2 {
     height: 30px;
 }
-.form-md{
+
+.form-md {
     width: 100%;
     height: 50px;
 }
-.form-sm{
+
+.form-sm {
     height: 50px;
     width: 255px;
 }
-.form-lg{
+
+.form-lg {
     width: 100%;
     height: 192px;
 }
-.btn-success{
+
+.btn-success {
     margin-left: 10px;
     height: 55px;
     width: 165px;
 }
-.detail-form{
+
+.detail-form {
     text-align: center;
 }
-.form-right{
+
+.form-right {
     font-size: 20px;
 }
-.about-contact-left{
+
+.about-contact-left {
     margin-bottom: 30px;
 }
+
+.pic-text {
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+
+}
+.service-pic {
+    width: 1116px;
+    height: 440px;
+    background-image: url("/assets/icon/hero2.jpg.webp");
+    filter: blur(5px);
+  }
+  .contact-container{
+    margin-top: 120px;
+  }
+  .Contact-text{
+    text-align: center;
+  }
+   .space-3{
+    height: 75px;
+  }
